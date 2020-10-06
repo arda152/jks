@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Junge Kammerphilharmonie Sachsen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+    <style>
+        body {
+            font-family: "Georgia", Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <figure class="image">
+                    <img src="images/Logo_jpg.jpg" alt="JKS Logo" style="max-width:313px; max-height:139px;">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <div class="p-4 container is-max-desktop">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://www.instagram.com/junge.kammerphil/">
+                    <span class="icon is-medium">
+                        <i class="fab fa-2x fa-instagram"></i>
+                    </span>
+                </a>
+                <a class="navbar-item" href="https://www.facebook.com/junge.kammerphil/?__tn__=%2Cd%2CP-R&eid=ARCp5Fdbdc_DwPZjx7rXNBKY9x4wf0nWJoJzmOHvlckT0UadYLrS1Q4TiaSn4MIRQ-frniQWIb8yogYD">
+                    <span class="icon is-medium">
+                        <i class="fab fa-2x fa-facebook"></i>
+                    </span>
+                </a>
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">
+                        Start
+                    </a>
+                    <a class="navbar-item" href="konzerte.html">
+                        Konzerte
+                    </a>
+                    <a class="navbar-item" href="ueber_uns.html">
+                        Über uns
+                    </a>
+                    <a class="navbar-item" href="jks_unterstuetzen.html">
+                        Freundeskreis
+                    </a>
+                    <a class="navbar-item" href="recitativo.html">
+                        Recitativo
+                    </a>
+                    <a class="navbar-item" href="archiv.html">
+                        Archiv
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="p-4 container is-max-desktop">
+        <div class="title is-1">
+            Konzerte
+        </div>
+        <div class="title">
+            »unfinished works«
+        </div>
+        <div class="content">
+            <p class="is-5">
+                WOLFGANG AMADEUS MOZART
+                <br>
+                Requiem in d-Moll KV 626
+                <br>
+                Süßmayr-Fassung
+            </p>
+            <p>
+                FRANZ SCHUBERT
+                <br>
+                Sinfonie Nr. 7 h-Moll D 759 »Unvollendete«
+            </p>
+            <p>
+                Sonntag, 18.10.2020
+                <br>
+                18.00 Uhr
+                <br>
+                Peterskirche Leipzig
+            </p>
+            <a href="https://shop.reservix.de/off/login_check.php?vID=22846&id=d8ddf2eba7a14bd2a33a3db14281cde211824bf5b7a780514ceee801b185bbf65b73d3473d6d4fd424a898c4bd05b8c0&eventGrpID=351827&eventID=1616784&info=1&fbclid=IwAR19XhdQ3Z1_X8lxb4ErlVyko__5_8fk4UWY6w8oXdK02tFzd9-rCa53k9A">
+                Tickets
+            </a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="content is-small has-text-centered">
+            <p>
+                © 2020 Junge Kammerphilharmonie Sachsen
+                <br>
+                Lipsiusstraße 15 04317 Leipzig
+                <br>
+                info@junge-kammerphilharmonie.de
+                <br>
+                Johannes Keller 1. Vorsitzender
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
